@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: https://vulcan.ai/fedramp
+notes: >-
+  Vulcan Technologies publishes a government-security posture: FedRAMP Ready,
+  operating in AWS GovCloud (US), with a documented security model (authenticated
+  runs, approval gates, audit trails). No public API is published, so cross-cutting
+  API standards (oauth2/oidc/rfc9457/etc.) cannot be asserted from a spec; the
+  entries below reflect the provider's published compliance and hosting claims only.
+standards:
+  - id: fedramp
+    conforms: true
+    status: ready
+    evidence: 'vulcan.ai/fedramp and llms.txt state "FedRAMP Ready and runs in AWS GovCloud (US)"'
+  - id: aws-govcloud-us
+    conforms: true
+    evidence: 'Platform hosted in AWS GovCloud (US) per vulcan.ai/fedramp'
+  - id: fisma
+    conforms: true
+    evidence: 'FedRAMP Ready designation aligns to FISMA controls (NIST 800-53)'

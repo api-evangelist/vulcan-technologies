@@ -1,0 +1,68 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of https://vulcan.ai
+notes: >-
+  vulcan.ai serves an SPA catch-all: every unknown path (including all
+  /.well-known/ paths) returns HTTP 200 with content-type text/html and the
+  generic site shell, so a 200 status alone is NOT evidence of a real artifact
+  on this host. No genuine well-known artifacts were found. The two real
+  root-level machine files are /robots.txt (text/plain, all crawlers and AI
+  assistants welcomed) and /llms.txt (saved verbatim in
+  llms/vulcan-technologies-llms.txt). No WellKnown/SecurityTxt pointers are
+  wired in apis.yml because nothing genuine exists to point at.
+host: https://vulcan.ai
+probes:
+  - path: /.well-known/security.txt
+    status: 200
+    content_type: text/html
+    artifact: false
+    note: SPA catch-all HTML shell, not RFC 9116 security.txt
+  - path: /security.txt
+    status: 200
+    content_type: text/html
+    artifact: false
+    note: SPA catch-all HTML shell
+  - path: /.well-known/openid-configuration
+    status: 200
+    content_type: text/html
+    artifact: false
+    note: SPA catch-all HTML shell, not an OIDC discovery document
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    content_type: text/html
+    artifact: false
+    note: SPA catch-all HTML shell
+  - path: /.well-known/api-catalog
+    status: 200
+    content_type: text/html
+    artifact: false
+    note: SPA catch-all HTML shell, not an RFC 9727 api-catalog
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    content_type: text/html
+    artifact: false
+    note: SPA catch-all HTML shell
+  - path: /robots.txt
+    status: 200
+    content_type: text/plain
+    artifact: true
+    note: real robots.txt; explicitly welcomes search engines and AI assistants
+  - path: /llms.txt
+    status: 200
+    content_type: text/plain
+    artifact: true
+    file: ../llms/vulcan-technologies-llms.txt
+    note: real llms.txt saved verbatim under llms/
+subdomains_probed:
+  - host: status.vulcan.ai
+    status: no-dns
+  - host: trust.vulcan.ai
+    status: no-dns
+  - host: app.vulcan.ai
+    status: no-dns
+  - host: docs.vulcan.ai
+    status: no-dns
+  - host: api.vulcan.ai
+    status: no-dns
+  - host: mcp.vulcan.ai
+    status: no-dns

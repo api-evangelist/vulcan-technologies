@@ -1,0 +1,42 @@
+generated: '2026-07-21'
+method: searched
+source: https://vulcan.ai/resources
+feed: https://vulcan.ai/rss.xml
+product: Justinian
+scheme: semver
+current_version: 2.1.9
+notes: >-
+  Vulcan publishes dated Justinian release notes at vulcan.ai/resources and via
+  an RSS feed (vulcan.ai/rss.xml). Recent window captured below; the live feed is
+  the source of truth. Vulcan is a product company (legal/government AI agents) and
+  does not publish a public developer API, so these are product release notes rather
+  than an API changelog.
+entries:
+  - version: 2.1.9
+    date: '2026-07-13'
+    url: https://vulcan.ai/justinian/2-1-9-update
+    title: Justinian 2.1.9 Release Notes
+  - version: 2.1.8
+    date: '2026-07-06'
+    url: https://vulcan.ai/justinian/2-1-8-update
+    title: Justinian 2.1.8 Release Notes
+  - version: 2.1.7
+    date: '2026-07-02'
+    url: https://vulcan.ai/justinian/2-1-7-update
+    title: Justinian 2.1.7 Release Notes
+  - version: 2.1.6
+    date: '2026-06-03'
+    url: https://vulcan.ai/justinian/2-1-6-update
+    title: Justinian 2.1.6 Release Notes
+  - version: 2.1.5
+    date: '2026-05-26'
+    url: https://vulcan.ai/justinian/2-1-5-update
+    title: Justinian 2.1.5 Release Notes
+  - version: 2.1.4
+    date: '2026-05-20'
+    url: https://vulcan.ai/justinian/2-1-4-update
+    title: Justinian 2.1.4 Release Notes
+  - version: 2.1.3
+    date: '2026-05-09'
+    url: https://vulcan.ai/justinian/2-1-3-update
+    title: Justinian 2.1.3 Release Notes

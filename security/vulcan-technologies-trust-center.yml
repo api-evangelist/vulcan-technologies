@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://vulcan.ai/security
+security_model: https://vulcan.ai/security
+compliance_page: https://vulcan.ai/fedramp
+certifications:
+  - FedRAMP Ready
+hosting: AWS GovCloud (US)
+controls:
+  - authenticated runs
+  - approval gates
+  - audit trails
+evidence:
+  - source: https://vulcan.ai/security
+    keywords: [security model, authenticated runs, approval gates, audit trails]
+  - source: https://vulcan.ai/fedramp
+    keywords: [fedramp ready, aws govcloud]
+notes: >-
+  Vulcan publishes a dedicated security-model page and a FedRAMP page describing its
+  government-grade security posture. FedRAMP is "Ready" (in process), not yet
+  "Authorized". No third-party trust portal (e.g. trust.vulcan.ai) or SOC 2 / ISO 27001
+  certification was found published as of this pass.

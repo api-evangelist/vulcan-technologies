@@ -1,8 +1,31 @@
 aid: vulcan-technologies
 name: Vulcan Technologies
-description: Vulcan Technologies is a company surfaced as a portfolio company of general-catalyst and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Vulcan Technologies builds frontier AI for law and government, headquartered in
+  Austin, Texas and founded in 2025. Its flagship product, Justinian, is a legal AI
+  agent that runs on roughly 157 billion records of American law and policy —
+  including 13+ billion court records, every municipal code, and federal and state
+  statutes, regulations, and active legislative sessions — planning research,
+  drafting work product, and verifying and citing every claim against source. A
+  second product, Trajan, is a government AI concierge for citizen services such as
+  permits, registrations, and license renewals. Vulcan is FedRAMP Ready, runs in AWS
+  GovCloud (US), and serves customers including the Virginia Office of Regulatory
+  Management, the U.S. Department of Education, and South Carolina agencies. The
+  company raised a $10.9M seed round (October 2025) co-led by General Catalyst and
+  Cubit Capital, with participation from Y Combinator, SV Angel, and others. Vulcan
+  is a product/agent company and does not currently publish a public developer API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://vulcan.ai/images/og/default.jpg
 url: https://raw.githubusercontent.com/api-evangelist/vulcan-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +33,50 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Legal AI
+- Government
+- RegTech
+- Regulatory Compliance
+- Artificial Intelligence
+- AI Agents
+- FedRAMP
+- Public Sector
 apis: []
+common:
+- type: Website
+  url: https://vulcan.ai
+- type: Support
+  url: https://vulcan.ai/support
+- type: Blog
+  url: https://vulcan.ai/resources
+- type: BlogRSS
+  url: https://vulcan.ai/rss.xml
+- type: Careers
+  url: https://vulcan.ai/jobs
+- type: Security
+  url: https://vulcan.ai/security
+- type: Compliance
+  url: https://vulcan.ai/fedramp
+- type: TrustCenter
+  url: security/vulcan-technologies-trust-center.yml
+- type: Conformance
+  url: conformance/vulcan-technologies-conformance.yml
+- type: ChangeLog
+  url: changelog/vulcan-technologies-changelog.yml
+- type: LLMsTxt
+  url: llms/vulcan-technologies-llms.txt
+- type: DomainSecurity
+  url: security/vulcan-technologies-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

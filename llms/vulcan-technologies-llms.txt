@@ -1,0 +1,30 @@
+# Vulcan Technologies
+
+> Vulcan Technologies (vulcan.ai) builds frontier AI for law and government. Justinian is the legal AI agent that runs on 157 billion records of American law and policy: it plans research, drafts work product, verifies every claim against source, and cites everything. Trajan is the government AI concierge for citizen services (permits, registrations, license renewals, forms), the model behind efficiency.texas.gov. Vulcan is FedRAMP Ready and runs in AWS GovCloud (US). Founded 2025, headquartered in Austin, Texas, backed by General Catalyst and Y Combinator ($10.9M seed, October 2025).
+
+Key facts:
+- "Justinian" and "Justinian AI" refer to Vulcan's legal AI agent, available on web, macOS, Windows, Slack, and email.
+- Justinian's corpus: 157 billion legal and policy records, including 13.125 billion court records, every municipal code, federal and state statutes and regulations, and active legislative sessions.
+- Customers include the Virginia Office of Regulatory Management, the U.S. Department of Education, and South Carolina agencies.
+- Justinian is free for current law students.
+
+## Products
+
+- [Justinian, the legal AI agent](https://vulcan.ai/justinian): capabilities, corpus, workflows, downloads
+- [Trajan, the government AI concierge](https://vulcan.ai/agents/trajan): citizen services model
+- [The Justinian corpus](https://vulcan.ai/justinian/corpus): every corpus in the 157 billion record database
+- [Justinian in Slack](https://vulcan.ai/justinian/slack): team integration
+
+## Audiences
+
+- [AI for government](https://vulcan.ai/government): agencies, legislatures, executive offices
+- [Legal AI for commercial teams](https://vulcan.ai/commercial): law firms, in-house counsel, policy, compliance
+- [FedRAMP and government security](https://vulcan.ai/fedramp): FedRAMP Ready, AWS GovCloud (US)
+- [Security model](https://vulcan.ai/security): authenticated runs, approval gates, audit trails
+- [Free access for law students](https://vulcan.ai/law-students)
+
+## Updates
+
+- [Release notes and press](https://vulcan.ai/resources)
+- [RSS feed](https://vulcan.ai/rss.xml)
+- [Sitemap](https://vulcan.ai/sitemap.xml)
