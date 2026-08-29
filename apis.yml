@@ -14,6 +14,17 @@ description: >-
   company raised a $10.9M seed round (October 2025) co-led by General Catalyst and
   Cubit Capital, with participation from Y Combinator, SV Angel, and others. Vulcan
   is a product/agent company and does not currently publish a public developer API.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
