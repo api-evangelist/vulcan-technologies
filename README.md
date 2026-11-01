@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Vulcan Technologies is a company surfaced as a portfolio company of general-catalyst and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Vulcan Technologies builds frontier AI for law and government, headquartered in Austin, Texas and founded in 2025. Its flagship product, Justinian, is a legal AI agent that runs on roughly 157 billion records of American law and policy — including 13+ billion court records, every municipal code, and federal and state statutes, regulations, and active legislative sessions — planning research, drafting work product, and verifying and citing every claim against source. A second product, Trajan, is a government AI concierge for citizen services such as permits, registrations, and license renewals. Vulcan is FedRAMP Ready, runs in AWS GovCloud (US), and serves customers including the Virginia Office of Regulatory Management, the U.S. Department of Education, and South Carolina agencies. The company raised a $10.9M seed round (October 2025) co-led by General Catalyst and Cubit Capital, with participation from Y Combinator, SV Angel, and others. Vulcan is a product/agent company and does not currently publish a public developer API.
 
-Backed by: general-catalyst
+**Areas:** Company · Legal AI · Government · RegTech · Regulatory Compliance · Artificial Intelligence · AI Agents · FedRAMP · Public Sector
+
+## Vulcan Technologies on APIs.io
+
+Everything profiled for Vulcan Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/vulcan-technologies/](https://apis.io/providers/vulcan-technologies/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Vulcan Technologies Domain Security](https://apis.io/security/vulcan-technologies/vulcan-technologies-domain-security/)
+- [Vulcan Technologies Trust Center](https://apis.io/security/vulcan-technologies/vulcan-technologies-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://vulcan.ai)
+- [Support](https://vulcan.ai/support)
+- [Blog](https://vulcan.ai/resources)
+- [Security](https://vulcan.ai/security)
+- [Compliance](https://vulcan.ai/fedramp)
+
+## API Evangelist rating
+
+**Kin Score 17.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 15.8 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.8** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/vulcan-technologies/](https://apis.io/providers/vulcan-technologies/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Vulcan Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/vulcan-technologies/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
